@@ -1,6 +1,6 @@
 # 3D fMRI viewer
 
-By []Guy Baz](https://g-s-baz.github.io/)
+By [Guy Baz](https://g-s-baz.github.io/)
 
 This project will enable the visualization of fMRI data in a 3D manner, compared to the traditional 2D viewers.
 Hopefully, that will aid in looking at activity changes that exist within and between tasks and subjects at a certaain brain region.
