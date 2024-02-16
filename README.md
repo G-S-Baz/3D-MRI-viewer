@@ -1,9 +1,8 @@
 # 3D fMRI viewer
-
 By [Guy Baz](https://g-s-baz.github.io/)
 
 This project will enable the visualization of fMRI data in a 3D manner, compared to the traditional 2D viewers.
-Hopefully, that will aid in looking at activity changes that exist within and between tasks and subjects at a certaain brain region.
+Hopefully, that will aid in looking at activity changes that exist within and between tasks and subjects at a certain brain region.
 
 For the visualization, masks files representing certain areas of the brain will be used and ploted as a mesh plot.
 FMRI activity will be ploted as a 3D scatter plot - with activity intensity represented by color.
