@@ -5,7 +5,7 @@ In my research, I'm especially interested in the brain activity of a structure c
 In the current phase of this project i've decided to focus solely on that area, and even named my program "straitum viewer" (though any kind of structure image can be used as long as its a probabilty atlas with dimention that match the fMRI).
 
 The program is splitted into 4 codes (in the Code folder), containing a GUI based on the PyQt6 package:
-* STR_viewer_main.py - the main code. The program runs when calling it in the command line.
+* STR_viewer_main.py - the main program code to excute the GUI.
 * striatum_viewer_ui.py - the main GUI code with all the widgets that were implemented.
 * custom_dialog_striatum_viewer.py - a code that helps implement user dialog for choosing the required MRI files.
 * striatum_viewer_supporting_functions.py - a set of functions that the program is utilizing for uploading, processing and plotting the MRI \ fMRI data.
