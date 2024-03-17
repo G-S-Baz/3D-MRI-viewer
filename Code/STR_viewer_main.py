@@ -2,7 +2,7 @@ import sys
 from PyQt6 import QtWidgets
 from striatum_viewer_ui import STRviewerUI
 
-# Main part of the script
+# Running the GUI
 def main():
     qapp = QtWidgets.QApplication.instance() or QtWidgets.QApplication(sys.argv)
 
