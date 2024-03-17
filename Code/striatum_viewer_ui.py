@@ -32,14 +32,16 @@ class STRviewerUI(QtWidgets.QWidget):
         save_action = toolbar.addAction("Save")
         save_action.triggered.connect(self.save_as_image)
         
-        # Add widgets to the toolbar
+        # Add camera distance reset
         reset_action = toolbar.addAction("Reset Camera Distance")
         reset_action.triggered.connect(self.camera_reset_button)
 
+        # Add a choice for the mesh plots color
         struct_color_action = toolbar.addAction("Choose Structure Color")
         struct_color_action.triggered.connect(self.color_picker)
         self.struct_color = "dark red"
 
+        # Add a choice for the fMRI image index
         set_index = toolbar.addAction("set image")
         set_index.triggered.connect(self.set_image_index)
         
