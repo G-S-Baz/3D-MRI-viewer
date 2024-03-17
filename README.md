@@ -10,8 +10,9 @@ The program is splitted into 4 codes (in the Code folder), containing a GUI base
 * striatum_viewer_supporting_functions.py - a set of functions that the program is utilizing for uploading, processing and plotting the MRI \ fMRI data.
 
 # how to use it
-before activation, user should make sure all dependencuies are installed using the pip install command.
-To activate to viewer, the user should run "python .\STR_viewer_main.py" in the cmd.
+before activation, user should make sure all dependencies are installed using the pip install command.
+Then, data (2 folders: code & ExampleData) should be downloaded.
+To run the program, user should type "python .\STR_viewer_main.py" in the cmd while in the code folder.
 Upon activation, a dialog box asking the user the chose 3 NIFTI file (its a medical imaging file format):
 Example files are given at the ExampleData folder.
 * A probability atals of the left striatum (In the ExampleData: rwSTR_L_prob_mni_non_linear_young.nii).
@@ -19,7 +20,7 @@ Example files are given at the ExampleData folder.
 * An fMRI activation map (3D) with time coded at the forth dimention(In the ExampleData: swTmaps_1-10.nii).
 
 At the toolbar, you can find:
-* files - Chosing new files to present. They are uploaded when pressing OK at the dialog box
+* files - Chosing new files to present. They are uploaded when pressing OK at the dialog box.
 * save - saving the figure in either jpeg, png or tiff format.
 * Reset camera distance - if you zoomed in or out it can reset the camera distance
 * Choose structure color - can change the color of the structure mesh plot.
@@ -32,7 +33,7 @@ The GUI features from top to down:
 * the figure itself.
 * Check boxes allowing the user to choose whether to present the activity and\or the structure of the left and\or right side.
 * A slider controling the radius of the points in the scatter plot that represents fMRI activity.
-* A slider controling the opacity of the points (should be set to maximum when image is to be saved, otherwise colors would be off in a weird way).
+* A slider controling the opacity of the points (should be set to maximum when image is to be saved, otherwise the saved image colors would be off in a weird way).
 
 # Personal comments:
 This project took on a mission to achieve visualization of fMRI activation over multiple time points in a 3D manner.
@@ -40,7 +41,7 @@ In my research, I'm especially interested in the brain activity of a structure c
 In the current phase of this project i've decided to focus solely on that area, and even named my program "straitum viewer" (though any kind of structure image can be used as long as its a probabilty atlas with dimention that match the fMRI).
 
 (Future prespectives for the project are:
-* Allowing for several sets of structures (each with a different NIFTI file) to be included and presented.
 * Spliting the striatum_viewer_ui.py code into 2 since its too long.
+* Allowing for several sets of structures (each with a different NIFTI file) to be included and presented.
 * Allowing the user to chose several activation maps on different files instead of one NIFTI that contains all.
 * Allowing for negative activation value (in case they are of interest).)
