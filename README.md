@@ -1,4 +1,4 @@
-# project's description
+# Project's description
 
 Viewing functional MRI images in 3D.
 The viewer plot both the outline of a brain structure as mesh plots (taking from probablity maps), and the activity (represented by t-value) of each pixel\voxel withtin the structure as a 3D scatter plot.
@@ -9,7 +9,7 @@ The program is splitted into 4 codes (in the Code folder), containing a GUI base
 * custom_dialog_striatum_viewer.py - a code that helps implement user dialog for choosing the required MRI files.
 * striatum_viewer_supporting_functions.py - a set of functions that the program is utilizing for uploading, processing and plotting the MRI \ fMRI data.
 
-# how to use it
+# How to use it
 Before activation, user should make sure all dependencies are installed using the pip install command.
 Then, data (2 folders: code & ExampleData) should be downloaded.
 To run the program, user should type "python .\STR_viewer_main.py" in the cmd while in the code folder.
