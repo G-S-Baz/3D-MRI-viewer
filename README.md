@@ -10,7 +10,7 @@ The program is splitted into 4 codes (in the Code folder), containing a GUI base
 * striatum_viewer_supporting_functions.py - a set of functions that the program is utilizing for uploading, processing and plotting the MRI \ fMRI data.
 
 # how to use it
-before activation, user should make sure all dependencies are installed using the pip install command.
+Before activation, user should make sure all dependencies are installed using the pip install command.
 Then, data (2 folders: code & ExampleData) should be downloaded.
 To run the program, user should type "python .\STR_viewer_main.py" in the cmd while in the code folder.
 Upon activation, a dialog box asking the user the chose 3 NIFTI file (its a medical imaging file format):
