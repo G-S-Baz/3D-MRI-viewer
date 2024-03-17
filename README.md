@@ -9,6 +9,7 @@ The program is splitted into 4 codes (in the Code folder), containing a GUI base
 * custom_dialog_striatum_viewer.py - a code that helps implement user dialog for choosing the required MRI files.
 * striatum_viewer_supporting_functions.py - a set of functions that the program is utilizing for uploading, processing and plotting the MRI \ fMRI data.
 
+# how to use it
 before activation, user should make sure all dependencuies are installed using the pip install command.
 To activate to viewer, the user should run "python .\STR_viewer_main.py" in the cmd.
 Upon activation, a dialog box asking the user the chose 3 NIFTI file (its a medical imaging file format):
@@ -33,7 +34,7 @@ The GUI features from top to down:
 * A slider controling the radius of the points in the scatter plot that represents fMRI activity.
 * A slider controling the opacity of the points (should be set to maximum when image is to be saved, otherwise colors would be off in a weird way).
 
-Personal comments:
+# Personal comments:
 This project took on a mission to achieve visualization of fMRI activation over multiple time points in a 3D manner.
 In my research, I'm especially interested in the brain activity of a structure called the striatum. Relatively to a subcortical area it is quite large structure, so changes that occur over time might be more pronounced in there.
 In the current phase of this project i've decided to focus solely on that area, and even named my program "straitum viewer" (though any kind of structure image can be used as long as its a probabilty atlas with dimention that match the fMRI).
