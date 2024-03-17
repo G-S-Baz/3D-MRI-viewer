@@ -43,21 +43,3 @@ def Draw_fMRI(fMRIdata,mask,threshold,radius_value,opacity_value):
                 plot = vpl.scatter(coordinats[voxel,:], radius = radius_value, color = get_cmap("autumn")(color_value), opacity=opacity_value)
                 plots.append(plot)
         return plots
-
-# def Save3D_str_figure(selectedFiles,self):
-#     file_path = selectedFiles()[0]
-#     file_format = file_path.split(".")[-1]
-
-#     # Get the VTK render window associated with the QtFigure
-#     vtk_render_window = self.figure.renWin()
-
-#     # Convert VTK render window to image
-#     window_to_image_filter = vtkWindowToImageFilter()
-#     window_to_image_filter.SetInput(vtk_render_window)
-#     window_to_image_filter.Update()
-
-#     # Save the image to file
-#     writer = vtk.vtkPNGWriter()
-#     writer.SetFileName(file_path)
-#     writer.SetInputConnection(window_to_image_filter.GetOutputPort())
-#     writer.Write()
