@@ -1,7 +1,7 @@
 # project's description
 
-The viewer plot both structural files (in the form og probablity maps),  as mesh plots, and activity (represented by t-value) of each pixel\voxel withtin the structure, as a 3D scatter plot.
-for now, its is designated specifically to one brain structure called the stratum.
+Viewing functional MRI images in 3D.
+The viewer plot both the outline of a brain structure as mesh plots (taking from probablity maps), and the activity (represented by t-value) of each pixel\voxel withtin the structure as a 3D scatter plot.
 
 The program is splitted into 4 codes (in the Code folder), containing a GUI based on the PyQt6 package:
 * STR_viewer_main.py - the main program code to excute the GUI.
@@ -13,10 +13,10 @@ The program is splitted into 4 codes (in the Code folder), containing a GUI base
 before activation, user should make sure all dependencuies are installed using the pip install command.
 To activate to viewer, the user should run "python .\STR_viewer_main.py" in the cmd.
 Upon activation, a dialog box asking the user the chose 3 NIFTI file (its a medical imaging file format):
+Example files are given at the ExampleData folder.
 * A probability atals of the left striatum (In the ExampleData: rwSTR_L_prob_mni_non_linear_young.nii).
 * A probability atals of the right striatum(In the ExampleData: rwSTR_R_prob_mni_non_linear_young.nii).
-* An fMRI activation map (3D) with time coded at the forth dimention(In the ExampleData: swTmaps.nii).
-Example files are given at the ExampleData folder.
+* An fMRI activation map (3D) with time coded at the forth dimention(In the ExampleData: swTmaps_1-10.nii).
 
 At the toolbar, you can find:
 * files - Chosing new files to present. They are uploaded when pressing OK at the dialog box
