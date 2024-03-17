@@ -1,4 +1,4 @@
-## project's description
+# project's description
 
 The viewer plot both structural files (in the form og probablity maps),  as mesh plots, and activity (represented by t-value) of each pixel\voxel withtin the structure, as a 3D scatter plot.
 for now, its is designated specifically to one brain structure called the stratum.
