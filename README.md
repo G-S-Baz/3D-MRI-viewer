@@ -36,7 +36,7 @@ The GUI features from top to down:
 
 # Personal comments:
 This project took on a mission to achieve visualization of fMRI activation over multiple time points in a 3D manner.
-In my research, I'm especially interested in the brain activity of a structure called the striatum. Relatively to a subcortical area it is quite large structure, so changes that occur over time might be more pronounced in there.
+In my research, I'm especially interested in the brain activity of a structure called the striatum. Relatively to a subcortical area, it is quite large structure, so changes that occur over time might be more pronounced in there.
 In the current phase of this project i've decided to focus solely on that area, and even named my program "straitum viewer" (though any kind of structure image can be used as long as its a probabilty atlas with dimention that match the fMRI).
 
 (Future prespectives for the project are:
