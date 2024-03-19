@@ -1,9 +1,7 @@
-For the code to run, the following python packages should be installed:
-
 vtkplotlib
 nibabel
 numpy
 stl
-skimage
+scikit-image
 matplotlib
 PyQt6
