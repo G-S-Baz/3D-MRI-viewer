@@ -12,7 +12,7 @@ The program is split into 4 codes (in the Code folder), containing a GUI based o
 # How to use it
 Download all data in the repository.
 Then, run: 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 To run the program, the user should type "python .\STR_viewer_main.py" in the cmd while in the code folder.
 Upon activation, a dialog box asks the user the choose 3 NIFTI files (it is a medical imaging file format):
 Example files are given in the ExampleData folder.
