@@ -5,7 +5,7 @@ from stl import mesh
 import skimage as si
 from matplotlib.cm import get_cmap
 
-% loading the probability image for a certain breain structure
+# loading the probability image for a certain breain structure
 def LoadAndPreprocessMask(path):
     Nifti_img  = nib.load(path)
     nii_data = Nifti_img.get_fdata()
@@ -13,7 +13,7 @@ def LoadAndPreprocessMask(path):
     nii_data = np.array(nii_data>0.5)
     return nii_data
 
-% making a mesh coordinats from the probability file
+# making a mesh coordinats from the probability file
 def MeshFromBinary(binary_image):
     verts, faces, normals, values = si.measure.marching_cubes(binary_image, 0)
 
@@ -24,13 +24,13 @@ def MeshFromBinary(binary_image):
     
     return obj_3d
 
-% creating vertices from the coordinates
+# creating vertices from the coordinates
 def create_vertices(nii_data):
     nii_data = MeshFromBinary(nii_data)
     vertices = nii_data.vectors
     return vertices
 
-% loading the 4D fMRI data
+# loading the 4D fMRI data
 def LoadfMRI(path):
     Nifti_img  = nib.load(path)
     nii_data = Nifti_img.get_fdata()
