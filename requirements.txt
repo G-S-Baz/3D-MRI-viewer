@@ -5,3 +5,4 @@ stl
 scikit-image
 matplotlib
 PyQt6
+numpy-stl
